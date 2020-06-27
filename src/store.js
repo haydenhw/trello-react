@@ -1,3 +1,14 @@
+/*
+*  lists.map
+*    return {
+*       ...list,
+*       cardIds.filter
+*         id !== deletedCardId
+*    }
+*
+*
+*
+* */
 const STORE = {
   lists: [
     {
