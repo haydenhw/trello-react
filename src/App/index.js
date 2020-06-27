@@ -9,7 +9,7 @@ class App extends Component {
       const cards = list.cardIds.map(c => store.allCards[c.id]);
       return <List cards={cards} title={list.header}/>
     });
-    
+
     return (
       <main className="App">
         <header className="App-header">
